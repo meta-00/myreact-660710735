@@ -1,11 +1,18 @@
+
+
 import React from 'react';
-import ComponentExamples from './components/ComponentExamples';
+import JSXExamples from './components/JSXExamples';
+import TodoList from './components/TodoList' ;
+import UserCard from './components/UserCard';
+
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <ComponentExamples />
+            <JSXExamples/>
+      <UserCard/>
+      <TodoList/>
         </div>
     );
 }

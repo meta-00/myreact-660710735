@@ -3,10 +3,13 @@ import React from 'react';
 const TodoList = () => {
     // ข้อมูลที่จะแสดง
     const todos = [
-        { id: 1, text: 'เรียน React พื้นฐาน', completed: true },
-        { id: 2, text: 'ทำความเข้าใจ Components', completed: true },
-        { id: 3, text: 'ฝึก Props และ State', completed: false },
-        { id: 4, text: 'สร้างโปรเจคจริง', completed: false }
+         { id: 1, text: 'ซักผ้า', completed: true },
+        { id: 2, text: 'ส่งงานวิชาเสรี', completed: true },
+        { id: 3, text: 'สรุปบทDBA', completed: false },
+        { id: 4, text: 'เรียน Security', completed: false },
+        { id: 5, text: 'เรียนรู้ html เบื้องต้น', completed: true },
+        { id: 6, text: 'รับพัสดุ', completed: false },
+        { id: 7, text: 'คุยงานกลุ่ม', completed: false }
     ];
     
     // คำนวณสถิติ

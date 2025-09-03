@@ -3,7 +3,7 @@ import React from 'react';
 // Component ย่อยๆ
 const Avatar = () => (
     <img 
-        src="https://via.placeholder.com/50" 
+        src="https://marketeeronline.co/archives/342609/news-j-meme-1" 
         alt="User Avatar"
         style={{
             borderRadius: '50%',
@@ -16,7 +16,7 @@ const Avatar = () => (
 
 const UserName = () => (
     <h3 style={{ color: '#667eea', margin: '10px 0' }}>
-        สมชาย ใจดี
+        เมธาวัฒน์ คูศิริวานิชกร
     </h3>
 );
 
